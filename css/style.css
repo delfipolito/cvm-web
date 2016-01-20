@@ -57,6 +57,12 @@ h4{
 	font-size: 33px;
 	text-align: center;
 }
+.intersectionText{
+	color: #383838;
+	font-family: 'latoLightItalic';
+	font-size: 26px;
+	text-align: center;
+}
 
 /*IMAGES*/
 .logo{
