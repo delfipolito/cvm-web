@@ -8,6 +8,10 @@
  src: url('../fonts/Lato-LightItalic.ttf') format('opentype');
 }
 @font-face {
+ font-family: 'latoItalic';
+ src: url('../fonts/Lato-Italic.ttf') format('opentype');
+}
+@font-face {
  font-family: 'latoBlack';
  src: url('../fonts/Lato-Black.ttf') format('opentype');
 }
@@ -40,7 +44,7 @@ h4{
 }
 .whoWeAreBoldText{
 	color: #FFFFFF;
-	font-family: 'latoLightItalic';
+	font-family: 'latoItalic';
 	font-size: 21px; 
 	text-align: justify;
 }
