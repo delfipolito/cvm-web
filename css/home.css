@@ -1,0 +1,22 @@
+body{
+    visibility:hidden;
+    opacity:0;
+}
+
+
+/*GENERAL*/
+.row{
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.myContainer {
+    height: 100%!important;
+    width: 100%!important;
+}
+
+.centered{
+    color: #000000;
+    text-align: center;
+}
+

@@ -1,0 +1,85 @@
+html, body, section {
+	height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+section{
+	position: relative;
+
+}
+
+body
+{
+  height:100%;
+  overflow: auto;
+}
+
+.section{
+	height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+
+#home{
+    background-color: #E7EDEB;
+    height: 100%;
+    min-height: 600px;
+    position: relative;
+    overflow: hidden;
+}
+#whoWeAre{
+    background-color: #B1C6C5;
+    height: auto;
+    min-height: 600px;
+    position: relative;￼FFFFFF
+    overflow: hidden;
+    padding-bottom: 40px;
+}
+
+#serveces{
+    background-color: #383838;
+    height: 70%;
+    min-height: 600px;
+    position: relative;
+    overflow: hidden;
+}
+#intersection{
+    background-color: #E7EDEB;
+    height: 30%;
+    position: relative;
+    overflow: hidden;
+}
+#clients{
+    background-color: #375D86;
+    height: auto;
+    min-height: 600px;
+    position: relative;
+    overflow: hidden;
+    padding-bottom: 40px;
+}
+#contactCover{
+    height: 60%;
+    position: relative;
+    overflow: hidden;
+    background-image: url('../images/imagen.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; 
+}
+#contact{
+    background-color: #BF2849;
+    height: 70%;
+    position: relative;
+    overflow: hidden;
+}
+
+
+
+

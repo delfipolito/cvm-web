@@ -1,0 +1,73 @@
+/*FONTS*/
+@font-face {
+ font-family: 'latoLight';
+ src: url('../fonts/Lato-Light.ttf') format('opentype');
+}
+@font-face {
+ font-family: 'latoLightItalic';
+ src: url('../fonts/Lato-LightItalic.ttf') format('opentype');
+}
+@font-face {
+ font-family: 'latoBlack';
+ src: url('../fonts/Lato-Black.ttf') format('opentype');
+}
+
+
+/*TEXTS*/
+
+.slogan{
+	color: #979897;
+	text-align: center;
+	font-family: 'latoLightItalic', sans-serif;
+	font-size: 27px;
+}
+
+h4{
+	font-size: 65px;
+	font-family: 'latoBlack';
+	text-align: center;
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+.whoWeAreTitle{
+	color: #FEFEFE;
+}
+.whoWeAreText{
+	color: #FFFFFF;
+	font-family: 'latoLight';
+	font-size: 20px;
+	text-align: justify; 
+}
+.whoWeAreBoldText{
+	color: #FFFFFF;
+	font-family: 'latoLightItalic';
+	font-size: 21px; 
+	text-align: justify;
+}
+.servicesTitle{
+	color: #E7EDEB;
+}
+.contactTitle{
+	color: #bf2849;
+	font-size: 83px;
+}
+.contactText{
+	color: white;
+	font-family: 'lato';
+	font-size: 33px;
+	text-align: center;
+}
+
+/*IMAGES*/
+.logo{
+	width: 100%;
+}
+.graphic{
+	width: 100%;	
+}
+
+/*NAVBAR*/
+nav ul a {
+  font-family: 'latoLight';
+  font-size: 18px;
+}

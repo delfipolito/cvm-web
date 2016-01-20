@@ -1,0 +1,31 @@
+/*MEDIA SIZE*/
+
+@media (max-width: 767px) { /*Para monitores xs*/
+
+
+}
+@media (min-width: 768px) and (max-width: 991px) { /*Para monitores sm*/
+
+}
+@media (min-width: 1600px){ /*Para monitores de resolucion muy grande*/
+
+
+}
+
+@media (min-width: 992px) and (max-width: 1200px){ /*Para monitores md*/
+
+}
+
+/* portrait */
+@media screen and (max-width: 767px) and (orientation:portrait) { /*para celulares vertical*/
+    
+}
+/* landscape */
+@media screen and (max-width: 767px) and (orientation:landscape) {  /*para celulares horizontal*/
+
+
+}
+
+@media screen and (max-width: 991px) and (orientation:landscape){
+
+  }
