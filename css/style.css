@@ -15,6 +15,14 @@
  font-family: 'latoBlack';
  src: url('../fonts/Lato-Black.ttf') format('opentype');
 }
+@font-face {
+ font-family: 'lato';
+ src: url('../fonts/Lato-Regular.ttf') format('opentype');
+}
+@font-face {
+ font-family: 'latoMedium';
+ src: url('../fonts/Lato-Medium.ttf') format('opentype');
+}
 
 
 /*TEXTS*/
@@ -67,6 +75,11 @@ h4{
 	font-size: 26px;
 	text-align: center;
 }
+.servecesText{
+	color:white;
+	font-family: 'lato';
+	font-size: 18px;
+}
 
 /*IMAGES*/
 .logo{
@@ -75,9 +88,42 @@ h4{
 .graphic{
 	width: 100%;	
 }
+.icons{
+	height: 100px;
+}
 
 /*NAVBAR*/
 nav ul a {
   font-family: 'latoLight';
   font-size: 18px;
+}
+nav ul a:hover{
+	color: white!important;
+	text-decoration: none!important;
+}
+
+/*ROWS AND COLS*/
+.iconRow{
+	margin-top: 60px;
+}
+
+/*FORM*/
+input{
+	border-radius: 0px!important;
+  border: solid white!important;
+}
+textarea{
+	border-radius: 0px!important;
+  border: solid white!important;
+}
+.contactLabel{
+	color:#CACABC;
+	font-family: 'latoLightItalic';
+	font-size: 17px;
+}
+.submit{
+	font-family: 'latoMedium';
+  background-color: #951439;
+  text-transform: none;
+  font-size: 17px;
 }

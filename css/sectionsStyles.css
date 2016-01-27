@@ -78,6 +78,8 @@ body
     height: 70%;
     position: relative;
     overflow: hidden;
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
 
 

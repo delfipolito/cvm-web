@@ -6447,9 +6447,9 @@ button:focus {
   outline: none;
   background-color: #2ab7a9; }
 
-label {
+/*label {
   font-size: 0.8rem;
-  color: #9e9e9e; }
+  color: #9e9e9e; }*/
 
 /***************************
    Text Inputs + Textarea
@@ -6468,7 +6468,7 @@ label {
 :-ms-input-placeholder {
   color: #d1d1d1; }
 
-input[type=text], input[type=password], input[type=email], input[type=url], input[type=time], input[type=date], input[type=datetime-local], input[type=tel], input[type=number], input[type=search], textarea.materialize-textarea {
+/*input[type=text], input[type=password], input[type=email], input[type=url], input[type=time], input[type=date], input[type=datetime-local], input[type=tel], input[type=number], input[type=search], textarea.materialize-textarea {
   background-color: transparent;
   border: none;
   border-bottom: 1px solid #9e9e9e;
@@ -6515,7 +6515,7 @@ input[type=text], input[type=password], input[type=email], input[type=url], inpu
     top: 65px;
     opacity: 0;
     transition: .2s opacity ease-out, .2s color ease-out; }
-
+*/
 .input-field {
   position: relative;
   margin-top: 1rem; }
