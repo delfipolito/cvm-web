@@ -107,6 +107,9 @@ nav ul a:hover{
 .iconRow{
 	margin-top: 60px;
 }
+.noPadding{
+    padding: 0px;
+}
 
 /*FORM*/
 input{
@@ -125,6 +128,12 @@ textarea{
 .submit{
 	font-family: 'latoMedium';
   background-color: #951439;
+  text-transform: none;
+  font-size: 17px;
+}
+.submit:hover{
+	font-family: 'latoMedium';
+  background-color: #5D1227;
   text-transform: none;
   font-size: 17px;
 }

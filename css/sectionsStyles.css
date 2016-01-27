@@ -5,8 +5,7 @@ html, body, section {
     padding: 0;
 }
 section{
-	position: relative;
-
+    position: relative;
 }
 
 body
@@ -14,6 +13,7 @@ body
   height:100%;
   overflow: auto;
 }
+
 
 .section{
 	height: 100%;
@@ -47,7 +47,8 @@ body
 }
 #intersection{
     background-color: #E7EDEB;
-    height: 30%;
+    min-height: 30%;
+    height: auto;
     position: relative;
     overflow: hidden;
 }
@@ -59,7 +60,8 @@ body
     padding-bottom: 40px;
 }
 #contactCover{
-    height: 60%;
+    min-height: 60%;
+    height: auto;
     position: relative;
     overflow: hidden;
     background-image: url('../images/imagen.jpg');
@@ -73,7 +75,8 @@ body
 }
 #contact{
     background-color: #BF2849;
-    height: 70%;
+    min-height: 70%;
+    height: auto;
     position: relative;
     overflow: hidden;
     padding-top: 60px;
