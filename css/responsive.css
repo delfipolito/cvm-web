@@ -1,9 +1,19 @@
 /*MEDIA SIZE*/
 
-@media (max-width: 767px) { /*Para monitores xs*/
 
+
+@media (max-width: 767px) { /*Para monitores xs*/
+.slogan{font-size: 20px;}
+#home {height: auto;}
+h4{font-size: 40px;}
+.contactTitle{font-size: 40px;}
+.picture{display: none!important;}
+.xsPicture{display: inherit;}
 
 }
+
+
+
 @media (min-width: 768px) and (max-width: 991px) { /*Para monitores sm*/
 
 }
